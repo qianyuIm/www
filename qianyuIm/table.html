@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h4>普通表格</h4>
+    <table>
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+       <tr>
+           <td>Second</td>
+           <td>Row</td>
+       </tr>
+    </table>
+    <h4>带有边框的表格</h4>
+    <table border="1">
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+    <h4>带有粗边框的表格</h4>
+    <table border="10">
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+    <h4>带有表头的表格</h4>
+    <table>
+        <th>Header</th>
+        <th>Other header</th>
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+    <h4>带有表头和边框的表格</h4>
+    <table border="1">
+        <th>Header</th>
+        <th>Other Header</th>
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Secode</td>
+            <td>Row</td>
+        </tr>
+    </table>
+    <h4>表格中的含有空单元格</h4>
+    <table>
+        <th>Header</th>
+        <th>Other Header</th>
+        <tr>
+            <td>First</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+    <h4>表格中含有空单元格并且带有边框的表格,这种方案 空单元格的边框是不会显示出来的</h4>
+    <table border="1">
+        <th>Header</th>
+        <th>Other Header</th>
+        <tr>
+            <td>First</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+    <h4>表格中含有空单元格并且带有边框的表格优化方案</h4>
+    <table border="1">
+        <th>Header</th>
+        <th>Other Header</th>
+        <tr>
+            <td>First</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+    <h4>横跨两列的单元格</h4>
+    <table border="1">
+        <tr>
+            <td> 姓名</td>
+            <td colspan="2", align="center">电话</td>
+        </tr>
+        <tr>
+            <td>qianyuIm</td>
+            <td>130xxxx1234</td>
+            <td>170xxxx1234</td>
+        </tr>
+    </table>
+    <h4>横款两列的单元格</h4>
+    <table border="1">
+        <tr>
+            <td>姓名</td>
+            <td>qianyuIm</td>
+        </tr>
+        <tr>
+            <td rowspan="2">电话</td>
+            <td>130xxxx1234</td>
+        </tr>
+        <tr>
+            <td>170xxxx1234</td>
+        </tr>
+    </table>
+    <h4>带有 cellspacing：</h4>
+    <table border="1"
+    cellspacing="100">
+        <tr>
+             <td>First</td>
+             <td>Row</td>
+        </tr>   
+         <tr>
+             <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+
+</body>
+</html>
