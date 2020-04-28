@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>复合选择器 </title>
+    <style>
+        /* 交集选择器 */
+
+        /* .singer {  
+            color: #f00;
+        }
+        div.singer {
+            font-weight: 700;
+        } */
+
+        /* 并集选择器 */
+        /* p, div, h1,.yao {
+            color: #f00;
+        } */
+
+        /* 子元素选择器 */
+        h1 > strong {
+            color: #0f0;
+        }
+    </style>
+</head>
+<body> 
+    <h2>-> 交集选择器</h2>
+    要求 港澳台歌手字体加粗 已注释
+    <!-- <div class="singer">刘德华</div>
+    <div class="singer">张学友</div>
+    <p class="singer">汪峰</p>
+    <p class="singer">韩红</p> -->
+    <hr />
+    <h2>-> 并集选择器</h2>
+    1. 要求他们的颜色都为红色
+    <!-- <p>香蕉</p>
+    <p>橘子</p>
+    <div>大白菜</div>
+    <div>辣椒</div>
+    <h1>米饭</h1>
+    <h1>白面</h1>
+    <em class="yao">我也要变色</em>
+    <em>我不要变色</em>
+    <em>我不要变色</em> -->
+<hr />
+    <h2>-> 子元素选择器</h2>
+    1. 要求让一级菜单变为红色
+    <h1>This is <strong>very</strong> <strong>very</strong> important.</h1>
+    <h1>This is <em>really <strong>very</strong></em> important.</h1>
+    <hr /> 
+</body>
+</html>
